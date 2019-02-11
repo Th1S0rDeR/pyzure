@@ -366,7 +366,7 @@ Service descriptions </p>\
 dbutils.fs.mount(
   source = "wasbs://<FOLDER_NAME>@<CONTAINER_NAME>.blob.core.windows.net/",
   mount_point = "/mnt/my_mount_directory_any_name",
-  extra_configs = {"fs.azure.account.key.gdpriar.blob.core.windows.net" : "<ACCOUNT_KEY>"})
+  extra_configs = {"fs.azure.account.key.<ACCOUNT_NAME>.blob.core.windows.net" : "<ACCOUNT_KEY>"})
 
 # COMMAND ----------
 
